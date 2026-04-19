@@ -6,7 +6,7 @@ import { i18n, localeNames } from './i18n';
 export const i18nUI = defineI18nUI(i18n, {
   en: {
     displayName: localeNames.en,
-    search: 'Search documentation',
+    search: 'Search',
     searchNoResult: 'No results found',
     toc: 'On this page',
     tocNoHeadings: 'No headings',
@@ -19,7 +19,7 @@ export const i18nUI = defineI18nUI(i18n, {
   },
   ru: {
     displayName: localeNames.ru,
-    search: 'Поиск по документации',
+    search: 'Поиск',
     searchNoResult: 'Ничего не найдено',
     toc: 'На этой странице',
     tocNoHeadings: 'Нет заголовков',
